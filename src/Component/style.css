@@ -1,0 +1,95 @@
+@font-face {
+  font-family: SFProDisplay-Regular;
+  src: url(../Fonts/FontsFree-Net-SFProDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: Raleway-VariableFont;
+  src: url(../Fonts/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../Fonts/Lato-Regular.ttf);
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.carousel-section {
+  padding: 104px 0px 150px 104px;
+  margin-left: 104px;
+}
+/* carousel-lestside */
+.carousel-section .carousel-lestside {
+  width: 400px;
+}
+.carousel-section .carousel-lestside h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  color: #333333;
+  margin-bottom: 24px;
+  font-family: SFProDisplay-Regular;
+}
+.carousel-section .carousel-lestside p {
+  font-size: 18px;
+  line-height: 25px;
+  color: #999999;
+  margin-bottom: 30px;
+}
+.carousel-lestside .caunter p {
+  font-family: Raleway-VariableFont;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #cccccc;
+  margin-bottom: 24px;
+}
+.carousel-lestside .caunter p span {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  color: #333333;
+}
+.remot-btn button {
+  border: none;
+  width: 56px;
+  height: 56px;
+}
+.remot-btn .btnRigth {
+  background: #547ff3;
+  margin-left: 24px;
+}
+.remot-btn .btnLeft {
+  background: #ecf2fe;
+}
+/* carousel-rightside*/
+.carousel-section .carouselinner-items {
+  padding: 0px 8px;
+}
+.carouselinner-items .carouselinner-text {
+  padding: 24px 24px 39px 24px;
+}
+.carouselinner-items .carouselinner-text h3 {
+  font-family: SFProDisplay-Regular;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+  margin-bottom: 8px;
+}
+.carouselinner-items .carouselinner-text span {
+  font-family: Lato-Regular;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  color: #999999;
+}
+.carouselinner-items .carouselinner-text p {
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 19px;
+  color: #666666;
+}
